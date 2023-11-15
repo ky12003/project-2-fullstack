@@ -2,7 +2,7 @@ import React from "react";
 
 import ImageComp from "../ImageComp";
 
-import "../App.css";
+import '../../App.css'
 
 const Review = () => {
   return (
