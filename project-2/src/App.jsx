@@ -4,17 +4,23 @@ GENERAL IMPORTS
 import { useState } from 'react';
 
 /*------
-COMPONENT IMPORTS
+LOCAL COMPONENT IMPORTS
 --------*/
 import ImageComp from './components/ImageComp'
 import MainPage from './components/MainPage'
 import Header from './components/Header'
+import Footer from './components/Footer'
 // import SuperBurger from './components/SuperBurger'
+
+
+/*------
+EXTERNAL COMPONENT IMPORTS
+--------*/
+// import { Routes, Route } from 'react-router-dom'
 
 /*------
 MEDIA IMPORTS
 --------*/
-import homeImg from './assets/images/home-img.png';
 // import homeImgB from './assets/images/home-img1.png';
 // import loaderGif from './assets/images/loader.gif'
 
@@ -31,31 +37,14 @@ function App() {
 
   return (
     <>
-        <Header></Header>
+        <Header/>
         <MainPage/>
+        <Footer/>
+        
 
-
-      {/* footer section  */}
-
-
-      <footer className="footer">
-
-          <section>
-
-              <div className="share">
-                  <a href="#" className="btn">facebook</a>
-                  <a href="#" className="btn">twitter</a>
-                  <a href="#" className="btn">instagram</a>
-                  <a href="#" className="btn">pinterest</a>
-                  <a href="#" className="btn">linkedin</a>
-              </div>
-
-          </section>
-
-      </footer>
 
       {/* scroll top button  */}
-      <a href="#home" className="fas fa-angle-up" id="scroll-top"></a>
+      {/* <a href="#home" className="fas fa-angle-up" id="scroll-top"></a> */}
 
       {/* loader  */}
       
