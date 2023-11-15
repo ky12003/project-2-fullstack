@@ -31,9 +31,6 @@ function App() {
 
   return (
     <>
-      
-
-      {/* header section ends */}
       <Header></Header>
 
       {/* home section starts  */}
