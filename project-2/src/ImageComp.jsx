@@ -20,11 +20,10 @@ const ImageComp = ({ folder, index, imageClass }) => {
             };
 
             const imagePaths = Object.keys(imageContexts[folder]);
-            console.log(imagePaths)
             
             const selectedImagePath = imagePaths[index];
-            console.log(selectedImagePath)
-            // If the image path is found, set it in the state
+            
+            
             if (selectedImagePath) {
               const image = imageContexts[folder][selectedImagePath].default;
               setImagePath(image);
