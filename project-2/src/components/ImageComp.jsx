@@ -6,11 +6,11 @@ const ImageComp = ({ folder, index, imageClass }) => {
     useEffect(() => {
         const loadImage = async () => {
           try {
-            const imageContextG = import.meta.globEager('./assets/images/g-imgs/*');
-            const imageContextP = import.meta.globEager('./assets/images/p-imgs/*');
-            const imageContextPic = import.meta.globEager('./assets/images/pic-imgs/*');
-            const imageContextSA = import.meta.globEager('./assets/images/s-imgs-a/*');
-            const imageContextSB = import.meta.globEager('./assets/images/s-imgs-b/*');
+            const imageContextG = import.meta.globEager('../assets/images/g-imgs/*');
+            const imageContextP = import.meta.globEager('../assets/images/p-imgs/*');
+            const imageContextPic = import.meta.globEager('../assets/images/pic-imgs/*');
+            const imageContextSA = import.meta.globEager('../assets/images/s-imgs-a/*');
+            const imageContextSB = import.meta.globEager('../assets/images/s-imgs-b/*');
             const imageContexts = {
                 'g-imgs': imageContextG,
                 'p-imgs': imageContextP,

@@ -1,45 +1,40 @@
+/*------
+GENERAL IMPORTS
+--------*/
 import { useState } from 'react';
-import ImageComp from './ImageComp'
 
+/*------
+COMPONENT IMPORTS
+--------*/
+import ImageComp from './components/ImageComp'
+// import MainPage from './components/MainPage'
+import Header from './components/Header'
+// import SuperBurger from './components/SuperBurger'
 
+/*------
+MEDIA IMPORTS
+--------*/
 import homeImg from './assets/images/home-img.png';
 // import homeImgB from './assets/images/home-img1.png';
 // import loaderGif from './assets/images/loader.gif'
 
+
+/*------
+MISC IMPORTS
+--------*/
 import './App.css';
 
 
 function App() {
   const [count, setCount] = useState(0)
   
-  // console.log(imagePaths[0]);
 
   return (
     <>
-      {/* header section starts  */}
-
-      <header>
-
-          <section className="flex">
-
-              <a href="#" className="logo"><i className="fas fa-utensils"></i>food</a>
-
-              <div id="menu-bar" className="fas fa-bars"></div>
-
-              <nav className="navbar">
-                  <a href="#home">home</a>
-                  <a href="#speciality">speciality</a>
-                  <a href="#popular">popular</a>
-                  <a href="#gallery">gallery</a>
-                  <a href="#review">review</a>
-              
-              </nav>
-
-          </section>
-
-      </header>
+      
 
       {/* header section ends */}
+      <Header></Header>
 
       {/* home section starts  */}
 
