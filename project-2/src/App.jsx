@@ -10,13 +10,14 @@ import ImageComp from './components/ImageComp'
 import MainPage from './components/MainPage'
 import Header from './components/Header'
 import Footer from './components/Footer'
-// import SuperBurger from './components/SuperBurger'
+import SuperBurger from './components/SuperBurger'
+import Yifang from './components/Yifang'
 
 
 /*------
 EXTERNAL COMPONENT IMPORTS
 --------*/
-// import { Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 /*------
 MEDIA IMPORTS
@@ -32,13 +33,17 @@ import './App.css';
 
 
 function App() {
-  const [count, setCount] = useState(0)
+//   const [count, setCount] = useState(0)
   
 
   return (
     <>
         <Header/>
-        <MainPage/>
+        <Routes>
+            <Route path='/' element={<MainPage/>} />
+            <Route path='/SuperBurger' element={<SuperBurger/>}/>
+            <Route path='/Yifang' element={<Yifang/>}/>
+        </Routes>
         <Footer/>
         
 

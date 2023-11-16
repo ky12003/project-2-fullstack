@@ -25,7 +25,7 @@ const Popular = () => {
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
             </div>
-            <a href="#" className="btn">
+            <a href="/SuperBurger" className="btn">
               Our Review
             </a>
           </div>
@@ -53,7 +53,7 @@ const Popular = () => {
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
             </div>
-            <a href="#" className="btn">
+            <a href="/Yifang" className="btn">
               Our Review
             </a>
           </div>

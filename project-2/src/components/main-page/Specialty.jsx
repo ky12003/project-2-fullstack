@@ -18,7 +18,7 @@ const Specialty = () => {
                     <div className="box">
                         <ImageComp imageClass={"image"} folder={"s-imgs-b"} index={0}></ImageComp>
                         <div className="content">
-                            <ImageComp folder={"s-imgs-a"} index={1}></ImageComp>
+                            <ImageComp folder={"s-imgs-a"} index={0}></ImageComp>
                             <h3>burger</h3>
                             <p>Dive into the heart of American cuisine with our selection of UC Berkeley's finest burgers. Each patty is a blend of quality and flavor, grilled to perfection and served with fresh, locally-sourced toppings.</p>
                         </div>
@@ -52,17 +52,17 @@ const Specialty = () => {
                     </div>
                     
                     <div className="box">
-                        <ImageComp imageClass={"image"} folder={"s-imgs-b"} index={3}></ImageComp>
+                        <ImageComp imageClass={"image"} folder={"s-imgs-b"} index={4}></ImageComp>
                         <div className="content">
-                            <ImageComp folder={"s-imgs-a"} index={3}></ImageComp>
+                            <ImageComp folder={"s-imgs-a"} index={4}></ImageComp>
                             <h3>sweets</h3>
                             <p>Indulge in a slice of heaven with Berkeley's top-rated cakes. Whether you're after a rich chocolate layer cake or a light and fruity sponge, our guide has the sweetest spots around campus.</p>
                         </div>
                     </div>
                     <div className="box">
-                        <ImageComp imageClass={"image"} folder={"s-imgs-b"} index={4}></ImageComp>
+                        <ImageComp imageClass={"image"} folder={"s-imgs-b"} index={5}></ImageComp>
                         <div className="content">
-                            <ImageComp folder={"s-imgs-a"} index={4}></ImageComp>
+                            <ImageComp folder={"s-imgs-a"} index={5}></ImageComp>
                             <h3>breakfast</h3>
                             <p>Start your day the Berkeley way with breakfast spots that fuel the mind and satisfy the soul. From hearty omelets to organic acai bowls, find the perfect place to kickstart your morning.</p>
                         </div>

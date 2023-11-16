@@ -1,19 +1,15 @@
-import { useState } from 'react'
-// import './SuperBurger.css'
+import React from 'react'
+import MainPage from './MainPage'
+import Heading from './super-burger/Heading'
+// import Article from './super-burger/Article'
+
 
 function SuperBurger() {
 
   return (
     <>
-    <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
+      <Heading/>
+      {/* <Article/> */}
     </>
   )
 }

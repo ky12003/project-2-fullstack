@@ -11,12 +11,15 @@ const ImageComp = ({ folder, index, imageClass }) => {
             const imageContextPic = import.meta.globEager('../assets/images/pic-imgs/*');
             const imageContextSA = import.meta.globEager('../assets/images/s-imgs-a/*');
             const imageContextSB = import.meta.globEager('../assets/images/s-imgs-b/*');
+            const imageContextI = import.meta.globEager('../assets/images/i-imgs/*');
+
             const imageContexts = {
                 'g-imgs': imageContextG,
                 'p-imgs': imageContextP,
                 'pic-imgs': imageContextPic,
                 's-imgs-a': imageContextSA,
-                's-imgs-b': imageContextSB
+                's-imgs-b': imageContextSB,
+                'i-imgs': imageContextI
             };
 
             const imagePaths = Object.keys(imageContexts[folder]);
